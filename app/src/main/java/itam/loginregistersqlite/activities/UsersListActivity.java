@@ -9,17 +9,13 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import itam.loginregistersqlite.R;
 import itam.loginregistersqlite.adapters.UsersRecyclerAdapter;
 import itam.loginregistersqlite.model.User;
 import itam.loginregistersqlite.sql.DatabaseHelper;
-
-import java.util.ArrayList;
-import java.util.List;
-
-/**
- * Created by lalit on 10/10/2016.
- */
 
 public class UsersListActivity extends AppCompatActivity {
 

@@ -16,9 +16,7 @@ import itam.loginregistersqlite.helpers.InputValidation;
 import itam.loginregistersqlite.model.User;
 import itam.loginregistersqlite.sql.DatabaseHelper;
 
-/**
- * Created by lalit on 8/27/2016.
- */
+
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener {
 
     private final AppCompatActivity activity = RegisterActivity.this;

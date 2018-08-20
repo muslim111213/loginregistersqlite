@@ -12,10 +12,6 @@ import java.util.List;
 import itam.loginregistersqlite.R;
 import itam.loginregistersqlite.model.User;
 
-/**
- * Created by lalit on 10/10/2016.
- */
-
 public class UsersRecyclerAdapter extends RecyclerView.Adapter<UsersRecyclerAdapter.UserViewHolder> {
 
     private List<User> listUsers;
